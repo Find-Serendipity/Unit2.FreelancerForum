@@ -1,0 +1,43 @@
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+  
+  li {
+    border: solid 1px black;
+    margin: 1rem;
+  }
+
+
+#freelancers {
+    color: black;
+}
+
+#freelancerForum {
+    color: black;
+}
+
+#averageStartingPrice {
+    color: black;
+}
+
+#mainTable {
+    color: black;
+}
+
+#occupationTableable {
+    color: black;
+}
+
+#name {
+    color: black;
+}
+
+#occupation {
+    color: black;
+}
+
+#cost {
+    color: black;
+}
