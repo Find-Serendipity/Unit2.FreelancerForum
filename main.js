@@ -25,8 +25,8 @@ const availableFreelancers = [
 
 // Step 1 - render the availableFreelancers array using the showFreelancers function
 
-// Step 2, Function 1 - create a randomGenerator function that runs randomRow every 3000 seconds
-// const randomGenerator = setInterval(randomRow, 3000);
+// Step 2, Function 1 - create a randomGenerator function that runs randomRow every 3000 ms
+    // const randomGenerator = setInterval(randomRow, 3000);
 
 // Step 3, Function 2 - create a function called randomRow
 // that delivers a new object called addFreelancerObj
@@ -58,7 +58,13 @@ const availableFreelancers = [
         // append each of these new child variables into the new row
             // freelancerRow.appendChild(rowName);
             // freelancerRow.appendChild(rowOccupation);
-            // freelancerRow.appendChild(rowCost);
+            // freelancerRow.appendChild(`$` + rowCost);
     // return freelancerRow (goes back to newFreelancerObj)
 // replaceChildren for tableDOM with a spread of newFreelancerObj
 
+// Step 5, Function 4 - create a const averageCost
+// that reduces all the availableFreelancers.cost
+// into a single number
+
+// Step 6 - append averageCost to the document.querySelector(`#averageStartingPrice`)
+// as a string paired with the money symbol
