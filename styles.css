@@ -1,43 +1,22 @@
-ul {
+body {
+    text-align: center;
+}
+
+table {
+    width: 100%;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    list-style-type: none;
-  }
-  
-  li {
-    border: solid 1px black;
+    justify-content: center;
     margin: 1rem;
-  }
+}
 
-
-#freelancers {
-    color: black;
+td: { 
+    margin: 1rem;
+    padding: 1rem;
 }
 
 #freelancerForum {
-    color: black;
-}
-
-#averageStartingPrice {
-    color: black;
-}
-
-#mainTable {
-    color: black;
-}
-
-#occupationTableable {
-    color: black;
-}
-
-#name {
-    color: black;
-}
-
-#occupation {
-    color: black;
-}
-
-#cost {
-    color: black;
+    width: 100%;
+    margin: 1rem;
 }
